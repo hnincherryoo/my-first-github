@@ -1,93 +1,32 @@
-# my-first-github
-# Photo Gallery
+# My first GitHub repo 
 
-**Photo Gallery** project is a simple application combined with a form for uploading image details. Users can view a gallery of photos, and administrators or users can add new photos by filling out the provided form.
+Hnin Cherry Oo created this repo for the first time. Below are some exerpts from [What Is GitHub? A Beginner’s Introduction to GitHub](https://kinsta.com/knowledgebase/what-is-github/) by Kinsta.
 
+## What is GitHub? 
 
-## Features
+At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. To understand exactly what GitHub is, you need to know two connected principles:
 
-1. Responsive Design:
+- Version control
+- Git
 
-- The gallery adapts to different screen sizes using CSS media queries.
-- Images resize dynamically for mobile and desktop views.
-  
-2. Interactive Lightbox:
+## What Is Version Control?
 
-- Clicking an image opens it in a fullscreen lightbox for better viewing.
-- Includes a close button to exit the lightbox.
+Version control helps developers track and manage changes to a software project’s code. As a software project grows, version control becomes essential. Take WordPress…
 
-3. Hover Effects:
+At this point, WordPress is a pretty big project. If a core developer wanted to work on one specific part of the WordPress codebase, it wouldn’t be safe or efficient to have them directly edit the “official” source code.
 
-- Images scale and show a shadow effect when hovered over.
+Instead, version control lets developers safely work through **branching** and **merging**.
 
-4. Grid Display:
+With **branching**, a developer duplicates part of the source code (called the repository). The developer can then safely make changes to that part of the code without affecting the rest of the project.
 
-- A grid-based structure showcases multiple images in an organized manner.
-- Includes animation for a dynamic and interactive experience.
+Then, once the developer gets his or her part of the code working properly, he or she can merge that code back into the main source code to make it official.
 
+All of these changes are then tracked and can be reverted if need be.
 
-## Demo
-[Link to demo](https://lf36l9.csb.app/)
+## What Is Git?
 
-![image](https://github.com/user-attachments/assets/a0e3455b-53e5-4cbe-9388-4e7623438793)
+Git is a specific open-source version control system created by Linus Torvalds in 2005.
 
+Specifically, Git is a distributed version control system, which means that the entire codebase and history is available on every developer’s computer, which allows for easy branching and merging.
 
-## Installation
-
-1. Clone the repository to your local machine:
-```bash
-git clone https://github.com/ShravanDalavi/Web-Mini-Projects.git
-```
-2. Navigate to the project folder:
-```bash
-cd Web-Mini-Projects/projects/Photo\ Gallery
-```
-3. Open `index.html` in your web browser to start the clock.
-```bash
-open index.html
-```
-
-## Usage
-
-1. Image Viewing:
-
-Hover over the images to see the interactive effect.
-Click on an image to view it in a lightbox.
-Close the lightbox using the × button.
-
-2. Navigation:
-
-Scroll through the gallery to browse available images.
-Responsive layout ensures usability across devices.
-
-
-## Customization
-1. Adding Images:
-
-Place new images in the `Photo` folder.
-Add corresponding `<img` tags in the `index.html` file within the `.gallery div`.
-
-2. Styling:
-
-Modify `styles.css` for changes to colors, fonts, spacing, or layout.
-Adjust hover and animation effects by editing the CSS transitions or keyframes.
-
-3. JavaScript Enhancements:
-
-Extend functionality in `script.js`, such as adding slideshow capabilities or integrating third-party libraries.
-
-## File Structure
-```graphql
-Photo Gallery/
-│
-├── index.html   # Main HTML file for the gallery
-├── styles.css   # Styling for the gallery and lightbox
-├── script.js    # JavaScript for lightbox functionality
-├── Photo/       # Folder containing all gallery images
-│   ├── Image1.jpg
-│   ├── Image2.jpg
-│   └── ...
-
-```
-
-
+According to a [Stack Overflow developer survey](https://insights.stackoverflow.com/survey/2018/#work-version-control), over 87% of developers use Git.
